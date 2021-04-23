@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Zarema_JSON</string>
+    <string name="textView">Информация о тех, на кого подписан proffix4</string>
+    <string name="download">Загрузка данных</string>
+    <string name="find">Выбрать</string>
+    <string-array name="followingID">
+        <item>M66B</item>
+        <item>JulianSmart</item>
+        <item>teejee2008</item>
+        <item>SergeyMyssak</item>
+        <item>Bakss</item>
+        <item>andreymyssak</item>
+        <item>SKingTop</item>
+        <item>dev-gvs</item>
+        </string-array>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.zarema_json.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:background="@android:color/holo_orange_light"
+        android:focusable="true"
+        android:text="@string/textView"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#001BCC"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:layout_weight="0"
+        android:focusable="true"
+        android:text="@string/download"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#001BCC"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/download" />
+
+    <Spinner
+
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:background="#B215DC"
+        android:entries="@array/followingID"
+        android:focusable="true"
+        android:textColor="#001BCC"
+         />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#8E24AA"
+        android:focusable="true"
+        android:onClick="onClick"
+        android:text="@string/find"
+        android:textColor="#001BCC"
+        android:textColorHighlight="@color/design_default_color_secondary"
+        android:textColorLink="@color/design_default_color_background"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
